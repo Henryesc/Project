@@ -1,0 +1,65 @@
+header {
+ font-size: 2rem;
+ align-self: center;
+}
+
+body, html {
+    height: 100%;
+    background-color: bisque;
+}
+
+
+.y-wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#startQuiz { 
+    background-color: rgb(154, 87, 157);
+} 
+
+.flex-item {
+    background-color: rgb(14, 26, 26);
+    /* background-color: green; */
+}
+
+.bg {
+    display: flex;
+    margin: 1%;
+}
+
+.characterQuote {
+    flex: 1;
+}
+
+.quotes {
+    background-color: rgb(84, 165, 183);
+    flex-direction: column;
+    padding: .50%;
+}
+
+.quotes div {
+    flex: 1;
+}
+
+.ca button {
+    flex: 1;
+}
+
+
+.ca {
+    background-color: rgb(74, 102, 158);
+    flex-wrap: wrap;
+    padding: .50%;
+}
+
+.buttons {
+    display: flex;
+    align-self: center;
+}
+
+.author {
+    height: 100%;
+    
+}
